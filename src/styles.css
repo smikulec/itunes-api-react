@@ -1,0 +1,45 @@
+body {
+  font-family: Helvetica;
+}
+
+.main-div {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.form-container,
+.input-field,
+.list-item {
+  border-radius: 3px;
+  border: none;
+}
+
+.form-container {
+  background: rgb(57, 57, 223);
+  padding: 10px;
+}
+
+.input-field {
+  height: 25px;
+  width: 70%;
+  font-size: 18px;
+  margin: 15px;
+  padding: 5px;
+}
+
+.list-container {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.list-item {
+  margin: 5px 0px;
+}
+
+.list-item:nth-child(even) {
+  background-color: rgb(203, 222, 247);
+}
+
+.list-item:nth-child(odd) {
+  background-color: rgb(240, 243, 245);
+}
